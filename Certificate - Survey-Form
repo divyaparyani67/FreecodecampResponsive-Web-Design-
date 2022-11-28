@@ -45,15 +45,30 @@
           <p>What is your favorite feature of freeCodeCamp?</p>
           <select id="mostlike" value="mostlike" class="form-control">
             <option disabled selected value> Select an option</option>
-            <option value="challenges"> Challenges</option>
+            <option value="challenges">Challenges</option>
             <option value="projects">Projects</option>
-            <option value="community">Community</option>
-            <option value="opensource">Open Source</option>
+             <option value="community">Community</option>
+              <option value="opensource">Open Source</option>
             <select>
         </div>
-        <div class="form-group"></div>
-        <div class="form-group"></div>
-        <div class="form-group"></div>
+        <div class="form-group">
+          <p>What would you like to be improved?</p><span class ="clue">(check all that apply)</span>
+          <label>
+            <input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Front-end Projects</label>
+      <label>
+            <input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">Back-end Projects</label>      
+       <label>
+            <input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">Data Visualization</label> 
+             <label>
+            <input name="prefer" value="challenges" type="checkbox" class="Challenges">Data Visualization</label>      
+        </div>
+        <div class="form-group">
+          <p> Any comments and suggestions?</p>
+          <textarea id="comments" class="inpur-textarea" name="comment" placeholder="Enter your comments"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button"> Submit</button>
+        </div>
         </form>
         </div>
       </body>
